@@ -1,0 +1,13 @@
+oidc:
+    issuerurl: "https://yourdomain/adfs"
+    kubectlredirecturl: "http://localhost:5000/callback"
+    clientid: "your-client-id"
+    clientsecret: "your-client-secret"
+    username: "upn"
+    usernameprefix: "-"
+    group: "group"
+    #group:prefix: ""
+    #scopes:
+    extraparams: "resource=token-groups-claim"
+    #usehttpproxy:
+    #capath:
