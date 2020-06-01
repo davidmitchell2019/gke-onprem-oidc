@@ -28,6 +28,9 @@ rules:
       - pods
       - persistentvolumes
       - persistentvolumeclaims
+      - clusterroles
+      - rolebindings
+      - roles
       - resourcequotas
       - replicasets
       - replicationcontrollers
